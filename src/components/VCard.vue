@@ -47,10 +47,10 @@ const deleteCard = () => {
                     <span class="card__genre">{{ $props.genre }}</span>
                 </div>
                 <div class="card__actions">
-                    <div class="card__like" @click="setLike">
+                    <div class="card__like" @click.stop="setLike">
                         <LikeIcon :is-liked="isLiked" />
                     </div>
-                    <div class="card__delete" @click="deleteCard">
+                    <div class="card__delete" @click.stop="deleteCard">
                         <DeleteIcon />
                     </div>
                 </div>
