@@ -1,0 +1,46 @@
+:root {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+
+  --dark:#222831;
+  --light:#DDDDDD;
+  --accent:#30475E;
+  --red:#f73b3b;
+  --background:var(--dark);
+  --text:var(--light);;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+p{
+  margin: 0;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
